@@ -1,0 +1,96 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+    display: flex;
+    flex-direction: column;
+    color: black!important;
+    min-height: 100vh;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.btn-col{
+   background-color: #fe424d;
+   color: white;
+}
+.nav-link{
+    color:#222222 !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    
+}
+.f-info{
+    display: flex;
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+}
+.container{
+    flex:1;
+    color: #222222 !important;
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+.f-info-links, .f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-image-top{
+    border-radius: 1rem;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0px;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.row a{
+    text-decoration: none;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.show-img{
+    width: 40vw;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.btns{
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+    justify-content: space-between;
+}
