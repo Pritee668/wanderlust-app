@@ -32,7 +32,7 @@ async function main(){
 }
 
 app.get("/",(req,res)=>{
-    res.send("working");
+     res.redirect("/listings");
 });
 
 const validateListing=(req,res,next)=>{
