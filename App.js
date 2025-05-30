@@ -15,9 +15,9 @@ const wrapAsync=require("./utils/wrapAsync.js");
 const ExpressError=require("./utils/ExpressError.js");
 const{listingSchema}=require("./schema.js");
 require("dotenv").config();
+const MONGO_URL="mongodb+srv://priteegupta517:o57WMGplxNlGDQI6@cluster0.sxatnpf.mongodb.net/wanderlust"
 
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
 const PORT =8080;
 
 
